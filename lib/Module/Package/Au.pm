@@ -43,6 +43,7 @@ In F<Makefile.PL>:
 
     #!/usr/bin/env perl
     use inc::Module::Package 'Au:dry';
+    __END__
 
 =head1 DESCRIPTION
 
