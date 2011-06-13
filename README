@@ -6,6 +6,7 @@ SYNOPSIS
 
         #!/usr/bin/env perl
         use inc::Module::Package 'Au:dry';
+        __END__
 
 DESCRIPTION
     This module defines a set of standard configurations for Makefile.PL
