@@ -1,7 +1,7 @@
 use strict;
 use 5.008003;
 package Module::Package::Au;
-our $VERSION = '0.01';
+our $VERSION = 1;
 
 use Module::Package 0.24 ();
 use Module::Install::GithubMeta 0.10 ();
@@ -42,7 +42,7 @@ Module::Package::Au - Reusable Module::Install bits
 In F<Makefile.PL>:
 
     #!/usr/bin/env perl
-    use inc::Module::Package 'Au:dry';
+    use inc::Module::Package 'Au:dry 1';
     __END__
 
 =head1 DESCRIPTION
