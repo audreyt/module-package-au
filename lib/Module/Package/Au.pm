@@ -1,7 +1,7 @@
 use strict;
 use 5.008003;
 package Module::Package::Au;
-our $VERSION = 1;
+our $VERSION = 2;
 
 use Module::Package 0.24 ();
 use Module::Install::GithubMeta 0.10 ();
@@ -16,7 +16,7 @@ use base 'Module::Package::Plugin';
 sub main {
     my ($self) = @_;
 
-    $self->mi->license('CC0');
+    $self->mi->license('unrestricted');
     $self->mi->readme_from($self->pod_or_pm_file);
     $self->mi->readme_markdown_from($self->pod_or_pm_file);
     $self->mi->clean_files('README.mkdn');
