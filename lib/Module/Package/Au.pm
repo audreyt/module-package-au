@@ -43,7 +43,10 @@ In F<Makefile.PL>:
 
     #!/usr/bin/env perl
     use inc::Module::Package 'Au:dry 1';
-    __END__
+
+    # Put distribution-specific metadata here
+    requires "Some::Module";
+    keywords qw[ put some tags here ];
 
 =head1 DESCRIPTION
 
