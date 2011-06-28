@@ -7,7 +7,7 @@ Module::Package::Au - Reusable Module::Install bits
 In `Makefile.PL`:
 
     #!/usr/bin/env perl
-    use inc::Module::Package 'Au:dry';
+    use inc::Module::Package 'Au:dry 1';
     __END__
 
 # DESCRIPTION
